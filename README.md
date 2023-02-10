@@ -1,7 +1,9 @@
 # MIPS-Computer-Architecture
 
 This repo contains verilog code used to create a MIPS-"like" architectured processor. 
-It shares many similarities with the MIPS R2000 described in the ___ textbook. 
+It shares many similarities with the MIPS R2000 described in the 
+Computer Organization and Design The Hardware/Software Interface Fifth Edition by 
+David A. Patterson and John L. Hennessy textbook. 
 The major differences are a smaller instruction set and 16-bit words. 
 Similarities include a load/store architecture and three fixed-length instruction formats.
 This architecture follows a Harvard architecture, where instructions and data are located 
