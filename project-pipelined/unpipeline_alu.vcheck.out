@@ -1,0 +1,17 @@
+Line 28: Arithmetic inside assign statement: -
+Line 85: Case(x) without always
+Line 94: begin without always/case
+Line 97: begin without always/case
+Line 100: begin without always/case
+Line 103: begin without always/case
+Line 106: begin without always/case
+Line 109: begin without always/case
+Line 112: begin without always/case
+Line 116: begin without always/case
+Line 120: begin without always/case
+Line 124: begin without always/case
+Line 128: begin without always/case
+Line 131: begin without always/case
+Line 134: begin without always/case
+Line 137: begin without always/case
+End of file /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/unpipeline_alu.v. Hash = 1135093044

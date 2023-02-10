@@ -1,0 +1,808 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-unpipelined
+valu_control
+Z0 !s110 1640292010
+!i10b 1
+!s100 :b=ijh`IiEfhgPi1dQP5R0
+I<lXgjA:nJN?mo:j0znGJR3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined
+w1638422518
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/alu_control.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/alu_control.v
+L0 1
+Z3 OP;L;10.7c;67
+r1
+!s85 0
+31
+Z4 !s108 1640292010.000000
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/alu_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/alu_control.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vbitReg16
+R0
+!i10b 1
+!s100 CKRK80A[;dM^3imM4fJ`<1
+IJL^7z:zgF<oA?PMY;7W^o3
+R1
+R2
+w1635280331
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/bitReg16.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/bitReg16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/bitReg16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/bitReg16.v|
+!i113 1
+R5
+R6
+nbit@reg16
+vclkrst
+Z7 !s110 1640292011
+!i10b 1
+!s100 ZzzHl;B1mbcM<UZQX`N5V1
+IX=ck?lG0>=9ozQ]3JVV[E2
+R1
+R2
+w1455735510
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/clkrst.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/clkrst.v
+L0 12
+R3
+r1
+!s85 0
+31
+Z8 !s108 1640292011.000000
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/clkrst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/clkrst.v|
+!i113 1
+R5
+R6
+vdff
+R7
+!i10b 1
+!s100 YVYPgX10jcD@:7eFEVS1<3
+ImE=hLF?z8;6BA5ljI00cC3
+R1
+R2
+w1455735504
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff.v
+L0 6
+R3
+r1
+!s85 0
+31
+R8
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff.v|
+!i113 1
+R5
+R6
+vdff_pipe
+R7
+!i10b 1
+!s100 :Mfl6U?EKQk:TYMad:V8G2
+IJPKAoYK;@de^5HlJG=SL01
+R1
+R2
+w1638575586
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff_pipe.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff_pipe.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff_pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff_pipe.v|
+!i113 1
+R5
+R6
+vExecute
+R7
+!i10b 1
+!s100 1L>7cIcI4N_<1I0jm?>iI3
+IK8YG387:?^MLWAd201MlN1
+R1
+R2
+w1639022884
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Execute.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Execute.v
+L0 20
+R3
+r1
+!s85 0
+31
+R8
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Execute.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Execute.v|
+!i113 1
+R5
+R6
+n@execute
+vEXMEMpip
+R7
+!i10b 1
+!s100 D@Xi:4344;d5[Ra`W_FKa0
+I6JK_Mk6HXVLCHlH1j5:X33
+R1
+R2
+w1639033658
+Z9 8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/EXMEMpip.v
+Z10 F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/EXMEMpip.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+Z11 !s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/EXMEMpip.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/EXMEMpip.v|
+!i113 1
+R5
+R6
+n@e@x@m@e@mpip
+vEXMEMpipe
+!s110 1639006902
+!i10b 1
+!s100 LzPgZa7_`46Y[oPH4WESS0
+IM2SAN9P5b[TB?UjIjM@862
+R1
+R2
+w1638998949
+R9
+R10
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1639006902.000000
+R11
+R12
+!i113 1
+R5
+R6
+n@e@x@m@e@mpipe
+vforwardUnit
+R7
+!i10b 1
+!s100 dC?fST52od9e1eA]=P58M0
+I>fH5JORHm0d2]lFGklRK31
+R1
+R2
+w1639017240
+Z13 8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/forwardUnit.v
+Z14 F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/forwardUnit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+Z15 !s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/forwardUnit.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/forwardUnit.v|
+!i113 1
+R5
+R6
+nforward@unit
+vforwardunit
+!s110 1639015467
+!i10b 1
+!s100 ><jR[nF`O8CaeJ42gnVk13
+IOOXBZDYCMn_fA0`9Mi80N3
+R1
+R2
+w1638896719
+R13
+R14
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1639015467.000000
+R15
+R16
+!i113 1
+R5
+R6
+vfulladder1
+R7
+!i10b 1
+!s100 eZ[RkjEZeV?H<TjnAS8Ym1
+Ii:J^3WJOdWFfYb`6OfzQ@3
+R1
+R2
+w1635284398
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder1.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder1.v|
+!i113 1
+R5
+R6
+vfulladder16
+Z17 !s110 1640292012
+!i10b 1
+!s100 J^3JbIMDd8TGRb<3T;Dal3
+Ik=Ao8SP84<]PW5g1aW`963
+R1
+R2
+w1636348902
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder16.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder16.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z18 !s108 1640292012.000000
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder16.v|
+!i113 1
+R5
+R6
+vfulladder4
+R17
+!i10b 1
+!s100 JI[BI3HSnc3T;AKAmBD<N0
+IZ6h27ldbb]5Zdg05XE?922
+R1
+R2
+w1635286384
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder4.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder4.v|
+!i113 1
+R5
+R6
+vhazardDetection
+R17
+!i10b 1
+!s100 mi:4ljgBoWn3?o``1TgIl0
+IkHmZ89hC_UE_[d1`mi@TN1
+R1
+R2
+w1639037209
+Z19 8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/hazardDetection.v
+Z20 F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/hazardDetection.v
+L0 1
+R3
+r1
+!s85 0
+31
+R18
+Z21 !s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/hazardDetection.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/hazardDetection.v|
+!i113 1
+R5
+R6
+nhazard@detection
+vhazardDetectionUnit
+!s110 1639014174
+!i10b 1
+!s100 j1hBa?J;BEj:lI8`0SSP61
+IHAT2>e_IG]XD_SIPPPaXW3
+R1
+R2
+w1638966143
+R19
+R20
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1639014174.000000
+R21
+R22
+!i113 1
+R5
+R6
+nhazard@detection@unit
+vIDEXpip
+R17
+!i10b 1
+!s100 ^WkG?CiF6aiW_l4[Zka692
+I9WGVdFV]O8UfKU_ZIlGO?2
+R1
+R2
+w1639037447
+Z23 8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IDEXpip.v
+Z24 F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IDEXpip.v
+L0 1
+R3
+r1
+!s85 0
+31
+R18
+Z25 !s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IDEXpip.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IDEXpip.v|
+!i113 1
+R5
+R6
+n@i@d@e@xpip
+vIDEXpipe
+!s110 1639006903
+!i10b 1
+!s100 e2Q5[<9Of[;]9MDIUAMQ51
+Io7lE@1Ji>;U?=VCmbbdAg1
+R1
+R2
+w1638965953
+R23
+R24
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1639006903.000000
+R25
+R26
+!i113 1
+R5
+R6
+n@i@d@e@xpipe
+vIFIDpip
+R17
+!i10b 1
+!s100 ^X[zba9B7SEE:[HKlmGA>1
+I5N_;ZzR?[zHP82LRMjLBR1
+R1
+R2
+w1639062663
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IFIDpip.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IFIDpip.v
+L0 1
+R3
+r1
+!s85 0
+31
+R18
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IFIDpip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IFIDpip.v|
+!i113 1
+R5
+R6
+n@i@f@i@dpip
+vinstruction_fetch
+!s110 1638487457
+!i10b 1
+!s100 ]:ZVbA[]L@V2emH7i8C:32
+I<C>?XUhY=?k@@7@:i[`>11
+R1
+R2
+w1638487362
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/instruction_fetch.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/instruction_fetch.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1638487457.000000
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/instruction_fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/instruction_fetch.v|
+!i113 1
+R5
+R6
+vInstructionDecode
+R17
+!i10b 1
+!s100 zC7EBKQEZ8M1I36:PgM3d2
+IS4_YTFf^ZI7XER_:^W1O11
+R1
+R2
+w1639063625
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionDecode.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionDecode.v
+L0 1
+R3
+r1
+!s85 0
+31
+R18
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionDecode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionDecode.v|
+!i113 1
+R5
+R6
+n@instruction@decode
+vInstructionFetch
+R17
+!i10b 1
+!s100 D:kkhSIWl48ke9VniHK_F2
+IChXS1GcgQeP3jS2g2jA6;2
+R1
+R2
+w1639063617
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionFetch.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionFetch.v
+L0 1
+R3
+r1
+!s85 0
+31
+R18
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionFetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionFetch.v|
+!i113 1
+R5
+R6
+n@instruction@fetch
+vMemory
+Z27 !s110 1640292013
+!i10b 1
+!s100 g[:l]m?>^2B[9>Q:gnLDI1
+I2TfhG6]6Z[bQf6Ci=Njjl2
+R1
+R2
+w1638998875
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Memory.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z28 !s108 1640292013.000000
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Memory.v|
+!i113 1
+R5
+R6
+n@memory
+vmemory2c
+R27
+!i10b 1
+!s100 mBla:Z3FU]LZ9QoAFNKak1
+ITTj7=B0?Em66FS2YRH[gD3
+R1
+R2
+w1455735620
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/memory2c.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/memory2c.v
+L0 35
+R3
+r1
+!s85 0
+31
+R28
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/memory2c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/memory2c.v|
+!i113 1
+R5
+R6
+vMEMWBpip
+R27
+!i10b 1
+!s100 3CB0`@Z5o_35P?oBjWdbb0
+I8fXLkjh@hJ1<VTbIS57oI0
+R1
+R2
+w1639014168
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/MEMWBpip.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/MEMWBpip.v
+L0 1
+R3
+r1
+!s85 0
+31
+R28
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/MEMWBpip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/MEMWBpip.v|
+!i113 1
+R5
+R6
+n@m@e@m@w@bpip
+vproc
+R27
+!i10b 1
+!s100 eO@`hRa9>N_J=`UIdAcfD2
+Ih@P]h;F<3nna^;i40>CjN1
+R1
+R2
+w1639036401
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc.v
+L0 4
+R3
+r1
+!s85 0
+31
+R28
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc.v|
+!i113 1
+R5
+R6
+vproc_hier
+R27
+!i10b 1
+!s100 fCQ@9<WUiG_i1e@liDFCK3
+I@bz05VHW^WZT?nfjD:i5Y2
+R1
+R2
+w1455735530
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier.v
+L0 6
+R3
+r1
+!s85 0
+31
+R28
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier.v|
+!i113 1
+R5
+R6
+vproc_hier_pbench
+R27
+!i10b 1
+!s100 8`;R5MAJjk>>KPYoGA4_T2
+I]S@A7H=YjXXBUDeh]GobB2
+R1
+R2
+w1639060526
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier_pbench.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier_pbench.v
+L0 4
+R3
+r1
+!s85 0
+31
+R28
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier_pbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier_pbench.v|
+!i113 1
+R5
+R6
+vrf
+R27
+!i10b 1
+!s100 OdFH[k::1QOJFbDDCh9[X1
+IVAHMOBB1K?ECSMIQzn_h91
+R1
+R2
+w1635281839
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/rf.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/rf.v
+L0 4
+R3
+r1
+!s85 0
+31
+R28
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/rf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/rf.v|
+!i113 1
+R5
+R6
+vshifter
+Z29 !s110 1640292014
+!i10b 1
+!s100 2WzS<bIaz4G8MkjWeJ8`l3
+ILSQBE`dN<SW4<3VNz=X2h1
+R1
+R2
+w1638486782
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/shifter.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R28
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/shifter.v|
+!i113 1
+R5
+R6
+vsignXtend100
+R29
+!i10b 1
+!s100 Pb9;^Ed<JUD_fm5]@a71F1
+IfhkMYETo5mGb]EON0cRiG1
+R1
+R2
+w1636641768
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend100.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend100.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z30 !s108 1640292014.000000
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend100.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend100.v|
+!i113 1
+R5
+R6
+nsign@xtend100
+vsignXtend40
+R29
+!i10b 1
+!s100 _Lfhmhm><XYAaQ19:00zR0
+IcSPSjGebnO^P[?ORMIQ?a2
+R1
+R2
+w1636765138
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend40.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend40.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend40.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend40.v|
+!i113 1
+R5
+R6
+nsign@xtend40
+vsignXtend70
+R29
+!i10b 1
+!s100 dXL2EJajn[zLcz2?E[UP@0
+I?WoAHU?f>URWjmd?[ZD9T0
+R1
+R2
+w1636753866
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend70.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend70.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend70.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend70.v|
+!i113 1
+R5
+R6
+nsign@xtend70
+vunpipeline_alu
+R29
+!i10b 1
+!s100 1Co<L[U;eiK5QV4S[UF:a2
+IF85J38R4KN8CoX`FK_j2U3
+R1
+R2
+w1638420569
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/unpipeline_alu.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/unpipeline_alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/unpipeline_alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/unpipeline_alu.v|
+!i113 1
+R5
+R6
+vWriteback
+R29
+!i10b 1
+!s100 kLi7^JKc:l7bN9OaeS]ED3
+IVHWTPV^^eQfJ=>ZR6ceWN2
+R1
+R2
+w1639015465
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Writeback.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Writeback.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Writeback.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Writeback.v|
+!i113 1
+R5
+R6
+n@writeback
+vzeroXtend100
+!s110 1640292015
+!i10b 1
+!s100 P[UUM@jWKW2:1D^[0m_6P0
+IzR5VL8zORc3L4EcJAQ=W[3
+R1
+R2
+w1636753877
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend100.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend100.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1640292015.000000
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend100.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend100.v|
+!i113 1
+R5
+R6
+nzero@xtend100
+vzeroXtend40
+R29
+!i10b 1
+!s100 @VV5KR=2ozedaTA=hSJ]32
+Il<V7KBS7Jnb7IV?gd66471
+R1
+R2
+w1636765158
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend40.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend40.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend40.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend40.v|
+!i113 1
+R5
+R6
+nzero@xtend40
+vzeroXtend70
+R29
+!i10b 1
+!s100 ;SDSYMbOI:iEZgLeU3[k43
+IMbnRcLVfnJ`a;Y6z50SAS2
+R1
+R2
+w1636753759
+8/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend70.v
+F/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend70.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend70.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend70.v|
+!i113 1
+R5
+R6
+nzero@xtend70

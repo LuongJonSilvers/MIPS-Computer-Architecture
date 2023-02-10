@@ -1,0 +1,204 @@
+/afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/alu_control.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/alu_control.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module alu_control
+
+Top level modules:
+	alu_control
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IDEXpip.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IDEXpip.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module IDEXpip
+
+Top level modules:
+	IDEXpip
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Execute.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Execute.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module Execute
+
+Top level modules:
+	Execute
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend70.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend70.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module signXtend70
+
+Top level modules:
+	signXtend70
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/proc_hier.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module proc_hier
+
+Top level modules:
+	proc_hier
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/bitReg16.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/bitReg16.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module bitReg16
+
+Top level modules:
+	bitReg16
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IFIDpip.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/IFIDpip.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module IFIDpip
+
+Top level modules:
+	IFIDpip
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/EXMEMpip.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/EXMEMpip.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module EXMEMpip
+
+Top level modules:
+	EXMEMpip
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/shifter.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/shifter.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionDecode.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionDecode.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module InstructionDecode
+
+Top level modules:
+	InstructionDecode
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/rf.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/rf.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend40.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend40.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module signXtend40
+
+Top level modules:
+	signXtend40
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/MEMWBpip.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/MEMWBpip.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module MEMWBpip
+
+Top level modules:
+	MEMWBpip
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/hazardDetection.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/hazardDetection.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module hazardDetection
+
+Top level modules:
+	hazardDetection
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/unpipeline_alu.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/unpipeline_alu.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module unpipeline_alu
+
+Top level modules:
+	unpipeline_alu
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder16.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder16.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module fulladder16
+
+Top level modules:
+	fulladder16
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend70.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend70.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module zeroXtend70
+
+Top level modules:
+	zeroXtend70
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/clkrst.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/clkrst.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionFetch.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/InstructionFetch.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module InstructionFetch
+
+Top level modules:
+	InstructionFetch
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Writeback.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/Writeback.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module Writeback
+
+Top level modules:
+	Writeback
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend100.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend100.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module zeroXtend100
+
+Top level modules:
+	zeroXtend100
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder1.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder1.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module fulladder1
+
+Top level modules:
+	fulladder1
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend100.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/signXtend100.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module signXtend100
+
+Top level modules:
+	signXtend100
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff_pipe.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/dff_pipe.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module dff_pipe
+
+Top level modules:
+	dff_pipe
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/forwardUnit.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/forwardUnit.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module forwardUnit
+
+Top level modules:
+	forwardUnit
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/memory2c.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/memory2c.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend40.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/zeroXtend40.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module zeroXtend40
+
+Top level modules:
+	zeroXtend40
+
+} {} {}} /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder4.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/l/u/luong/Downloads/project-pipelined/fulladder4.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module fulladder4
+
+Top level modules:
+	fulladder4
+
+} {} {}}
