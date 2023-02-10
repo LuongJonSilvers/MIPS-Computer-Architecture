@@ -1,0 +1,54 @@
+/* $Author: karu $ */
+/* $LastChangedDate: 2009-03-04 23:09:45 -0600 (Wed, 04 Mar 2009) $ */
+/* $Rev: 45 $ */
+module proc (/*AUTOARG*/
+   // Outputs
+   err, 
+   // Inputs
+   clk, rst
+   );
+
+   input clk;
+   input rst;
+
+   output err;
+
+   // None of the above lines can be modified
+
+   // OR all the err ouputs for every sub-module and assign it as this
+   // err output
+   
+   // As desribed in the homeworks, use the err signal to trap corner
+   // cases that you think are illegal in your statemachines
+   
+   
+   /* your code here */
+   wire [15:0] Instruction, PC, NextPC,PC_add2,AfterPC_Adder,ImmeXtended_1L, garbage,AfterBranch,AJumpPC,ImmeXtended,Write_DatafromMem;
+wire [15:0] Reg2IdExBefore,Reg2IdExAfter;
+wire [11:0] BJumpPC;
+//CONTROL SIGNALS
+	wire [1:0] REGDST, MEMTOREG, IMMECHOOSE;
+	wire JUMP, BRANCH, MEMREAD,MEMWRITE, ALUSRC, REGWRITE,SIGNORZERO,TOWRITEDATA; //NEED ALUOP
+//FROM ALU
+	wire zero, pos, neg;
+
+fetch InstructionMem(.clk(clk), .rst(rst), .err(), .instr(Instruction),.PC(PC));
+rf RegisterFile(.read1data(Reg1IdEx), .read2data(Reg2IdExBefore), .err(),.clk(clk), .rst(rst), .read1regsel(Instruction[10:8]), .read2regsel(Instruction[7:5]), .writeregsel(toWrite_Reg), .writedata(Write_DatatoRegFile), .write(REGWRITE));
+bitReg16 PCcounter(.clk(clk),.rst(rst),.q(PC),.d(NextPC));
+fulladder16 PCAdd2(.A(PC),.B(16'd2),.S(PC_add2),.Cin(1'b0),.Cout(garbage));
+fulladder16 BranchAdd(.A(PC_add2),.B(ImmeXtended_1L),.S(AfterPC_Adder),.Cin(1'b0),.Cout(garbage));
+//shift instruction immediate by 1 and concatenate PC's 4 MSB to beginning
+assign BJumpPC = {Instruction[10:0],1'b0};
+assign JumpPC = {PC_add2[15:12],BJumpPC};
+assign BranchAnd = BRANCH & zero ;
+assign NextPC = (JUMP) ? (JumpPC): AfterBranch; 
+//For Branch Mux
+assign AfterBranch = (BranchAnd) ? AfterPC_Adder : PC_add2 ;
+assign ImmeXtended_1L = {ImmeXtended[14:0],0};
+assign toWrite = (REGDST[1]) ?  (REGDST[0]) ? 16'd7 : Instruction[10:8] : (REGDST[0]) ? Instruction[4:2] : Instruction[7:5];
+assign Write_DatatoRegFile = (TOWRITEDATA) ? NextPC : Write_DatafromMem;
+assign Reg2IdExAfter = (ALUSRC) ? ImmeXtended : Reg2IdExBefore;
+
+
+endmodule // proc
+// DUMMY LINE FOR REV CONTROL :0:

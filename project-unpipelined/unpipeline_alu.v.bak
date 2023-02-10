@@ -1,0 +1,15 @@
+module alu(reg1,reg2,alu_op,out,Zero,Pos,Neg);
+input [15:0] reg1,reg2;
+output [15:0] out;
+input alu_op;
+output Pos, Zero, Neg;
+wire carryIn;
+
+//assign carryIn = () ? : ;
+
+
+fulladder16 fulladd(.A(),.B(),.S(),.Cin(),.Cout());
+
+
+
+endmodule
